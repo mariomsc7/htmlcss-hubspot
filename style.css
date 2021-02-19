@@ -9,3 +9,82 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+header {
+    height: 200px;
+}
+
+h1
+h2
+h3
+h4 {
+    font-weight: 500;
+}
+
+/* UTILITIES ----------------------------------------------*/
+
+.box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+/* FLOAT */
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+/* INLINE <ul> */
+
+.inline li {
+    display: inline;
+}
+
+/* HEADER SECTION -----------------------------------------*/
+
+/* TOP HEADER ---------------------------------------------*/
+
+.header-top {
+    height: 100px;
+    background-color: #f4f9fd;
+    border-bottom: 1px solid black;
+}
+
+.header-box {
+    padding-top: 40px;
+}
+
+.header-top .left-side {
+    width: 50%;
+}
+
+.header-top .right-side {
+    width: 50%;
+    text-align: right;
+}
+
+/* LIST FONT COLOR */
+
+.header-box ul li a {
+    color: black;
+}
+
+/* BOTTOM HEADER ------------------------------------------*/
+
+.header-bottom {
+    height: 100px;
+    background-color: whitesmoke;
+}
