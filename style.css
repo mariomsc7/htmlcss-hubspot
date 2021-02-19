@@ -68,6 +68,7 @@ li a {
     border-radius: 5px;
     text-align: center;
     min-width: 100px;
+    text-decoration: none;
 }
 
 .btn-orange {
@@ -169,11 +170,25 @@ section.jumbotron {
     background: #fff4ef;
     background-image: url(./img-hubspot/jumbotron.png);
     background-repeat: no-repeat;
-    background-position: 70% 0;
-    margin-top: 0;
+    background-position: 100% 0;
+    margin: 0;
 
 }
 
 .jumbotron {
     height: 610px;
+}
+
+
+/* TEXT JUMBOTRON */
+
+.jumbotron-text h1 {
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.jumbotron-text p {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
