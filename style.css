@@ -207,7 +207,7 @@ section.jumbotron {
     height: 1500px;
 }
 
-/* TOP SECTION */
+/* TOP SECTION --------------------------------------------*/
 
 .top-section {
     padding-top: 50px;
@@ -228,4 +228,15 @@ section.jumbotron {
 .top-section p {
     padding-bottom: 10px;
     font-size: 16px;
+}
+
+/* CRM BOX SECTION ----------------------------------------*/
+
+.crm-box {
+    height: 350px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
 }
