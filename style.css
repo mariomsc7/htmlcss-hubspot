@@ -135,7 +135,7 @@ li a {
 /* HOVER */
 
 .header-top li a:not(.btn):hover {
-    color:green;
+    color:#fe775a;
     transition: 0.5s;
 }
 
@@ -159,7 +159,7 @@ li a {
 }
 
 .header-bottom li a:hover {
-    color: green;
+    color: #fe775a;
     transition: 0.5s;
 }
 
@@ -182,9 +182,8 @@ section.jumbotron {
 /* TEXT JUMBOTRON */
 
 .jumbotron-text h1 {
-    font-size: 45px;
+    font-size: 50px;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .jumbotron-text p {
