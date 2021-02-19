@@ -35,6 +35,11 @@ li {
 li a {
     text-decoration: none;
 }
+
+.w-50 {
+    width: 50%;
+}
+
 /* FLOAT */
 
 .clearfix::after {
@@ -68,6 +73,10 @@ li a {
 .btn-orange {
     color: white;
     background-color: #fe775a;
+}
+
+.btn-big {
+    padding: 20px;
 }
 
 /* HEADER SECTION -----------------------------------------*/
@@ -124,9 +133,47 @@ li a {
 
 /* HOVER */
 
+.header-top li a:not(.btn):hover {
+    color:green;
+    transition: 0.5s;
+}
+
 /* BOTTOM HEADER ------------------------------------------*/
 
 .header-bottom {
     height: 100px;
-    background-color: whitesmoke;
+}
+
+.hub-logo {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.right-navigation {
+    width: 50%;
+}
+
+.right-navigation a {
+    color: black;
+}
+
+.header-bottom li a:hover {
+    color: green;
+    transition: 0.5s;
+}
+
+/* MAIN SECTION -------------------------------------------*/
+/* JUMBOTRON */
+
+section.jumbotron { 
+    background: #fff4ef;
+    background-image: url(./img-hubspot/jumbotron.png);
+    background-repeat: no-repeat;
+    background-position: 70% 0;
+    margin-top: 0;
+
+}
+
+.jumbotron {
+    height: 610px;
 }
