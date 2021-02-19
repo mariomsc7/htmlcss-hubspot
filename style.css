@@ -179,7 +179,6 @@ section.jumbotron {
     height: 610px;
 }
 
-
 /* TEXT JUMBOTRON */
 
 .jumbotron-text h1 {
@@ -191,4 +190,43 @@ section.jumbotron {
 .jumbotron-text p {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+/* BIG HR -------------------------------------------------*/
+
+.big-hr {
+    background-color: #afebe4;
+    height: 90px;
+    border-top: 2px solid #33475b;
+    border-bottom: 2px solid #33475b;
+}
+
+/* MAIN SECTION -------------------------------------------*/
+
+.main-section {
+    background-color: #f4f9fd;
+    height: 1500px;
+}
+
+/* TOP SECTION */
+
+.top-section {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.top-section img {
+    width: 400px;
+    height: 300px;
+}
+
+.top-section h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.top-section p {
+    padding-bottom: 10px;
+    font-size: 16px;
 }
