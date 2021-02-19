@@ -53,6 +53,23 @@ li a {
     display: inline;
 }
 
+/* BUTTONS */
+
+.btn {
+    border: 1px solid #fe775a;
+    color: #fe775a;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.btn-orange {
+    color: white;
+    background-color: #fe775a;
+}
+
 /* HEADER SECTION -----------------------------------------*/
 
 /* TOP HEADER ---------------------------------------------*/
@@ -76,11 +93,36 @@ li a {
     text-align: right;
 }
 
-/* LIST FONT COLOR */
+/* LIST FONT COLOR & PADDING + BORDER*/
 
-.header-box ul li a {
+.left-menu a {
     color: black;
 }
+
+
+.header-box ul li a {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#right-border {
+    border-right: 1px solid black;
+
+}
+
+#contact {
+    padding-left: 15px;
+}
+
+#search {
+    color: #0ea4bd;
+}
+
+#mid-btn {
+    padding-right: 15px;
+}
+
+/* HOVER */
 
 /* BOTTOM HEADER ------------------------------------------*/
 
