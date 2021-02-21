@@ -89,13 +89,14 @@ a {
 /* TOP HEADER ---------------------------------------------*/
 
 .header-top {
+    padding-top: 40px;
     height: 100px;
     background-color: #f4f9fd;
     border-bottom: 1px solid black;
 }
 
 .header-box {
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 .header-top .left-side {
@@ -113,6 +114,9 @@ a {
     color: black;
 }
 
+.left-menu a:first-of-type {
+    padding-left: 0;
+}
 
 .header-box ul li a {
     padding-right: 15px;
@@ -150,16 +154,27 @@ a {
 }
 
 .hub-logo {
-    width: 50%;
-    padding-left: 15px;
+    width: 40%;
+    margin-top: 15px;
+}
+
+.hub-logo img {
+    padding-bottom: 20px;
 }
 
 .right-navigation {
-    width: 50%;
+    width: 60%;
+    margin-top: 40px;
+    padding-left: 100px;
 }
 
 .right-navigation a {
     color: black;
+}
+
+.right-navigation li i {
+    padding-left: 10px;
+    padding-right: 0;
 }
 
 .header-bottom li a:hover {
@@ -374,3 +389,150 @@ section.jumbotron {
 }
 
 /* GRADIENT SECTION ---------------------------------------*/
+
+section.gradient {
+    height: 700px;
+    background: linear-gradient(45deg, #08a4bc , #07bca8);
+}
+
+.gradient-box {
+    color: white;
+}
+
+/* TOP SECTION */
+.gradient-top {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gradient-top h2 {
+    line-height: 40px;
+    font-size: 31px;
+    padding-bottom: 30px;
+}
+
+.gradient-top {
+    line-height: 25px;
+}
+
+/* BOTTOM SECTION */
+
+.col4 {
+    width: 300px;
+    text-align: center;
+}
+
+.c1, .c2, .c3 {
+    border-right: 1px solid white;
+}
+
+.c1, .c2, .c3, .c4 {
+    padding-top: 20px;
+}
+
+.c1, .c2, .c3, .c4, .numbers {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.c1, .c2, .c3, .c4, img:last-of-type {
+    padding-top: 20px;
+    padding-bottom: 10px;
+} 
+
+.col-text {
+    font-size: 12px;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.col-text-2 {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+/* LAST SECTION -------------------------------------------*/
+
+section.last-section {
+    height: 800px;
+}
+
+/* TOP LINE */
+
+.last-top {
+    padding-top: 50px;
+}
+
+.top-left {
+    width: 300px;
+    padding-left: 70px;
+}
+
+.top-left p:first-child {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.top-left p:last-child {
+    line-height: 30px;
+}
+
+/* RIGHT IMG */
+
+.top-right  {
+    width: 600px;
+    line-height: 50px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.top-right img {
+    width: 22%;
+    padding: 0;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+/* BOTTOM LINE */
+
+.last-bottom {
+    margin-top: 50px;
+    background-image: url(./img-hubspot/woman.webp);
+    background-repeat: no-repeat;
+    background-size: 350px 420px;
+    background-position: 100% 0%;
+}
+
+.bottom-left {
+    margin-top: 50px;
+    width: 40%;
+    height: 1000px;
+}
+
+.bottom-left h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.bottom-left p:first-of-type {
+    line-height: 30px;
+    margin-bottom: 70px;
+}
+
+.bottom-left p:last-of-type {
+    margin-top: 70px;
+    font-size: 12px;
+}
+
+/* FOOTER -------------------------------------------------*/
+
+footer {
+    background-color: #32495b;
+    height: 700px;
+}
+
+
