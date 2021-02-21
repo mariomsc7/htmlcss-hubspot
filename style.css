@@ -32,7 +32,7 @@ li {
     list-style: none;
 }
 
-li a {
+a {
     text-decoration: none;
 }
 
@@ -50,6 +50,10 @@ li a {
 
 .float-left {
     float: left;
+}
+
+.float-right {
+    float: right;
 }
 
 /* INLINE <ul> */
@@ -202,7 +206,7 @@ section.jumbotron {
 
 .main-section {
     background-color: #f4f9fd;
-    height: 1500px;
+    height: 1700px;
 }
 
 /* TOP SECTION --------------------------------------------*/
@@ -230,7 +234,7 @@ section.jumbotron {
 
 /* CRM BOX SECTION ----------------------------------------*/
 
-.crm-box {
+.big-crm-box {
     height: 350px;
     margin-top: 30px;
     background-color: #fff;
@@ -238,3 +242,135 @@ section.jumbotron {
     border: 2px solid whitesmoke;
     box-shadow: 1px 1px 1px 1px whitesmoke;
 }
+
+.crm-box {
+    width: 930px;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+
+/* LEFT CRM */
+
+.left-crm {
+    max-width: 150px;
+    margin: 125px;
+    margin-top: 80px;
+}
+
+.left-crm img {
+    margin-bottom: 40px;
+}
+
+/* RIGHT CRM */
+
+.right-crm {
+    max-width: 675px;
+    margin-top: 80px;
+}
+
+.right-crm h3 {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.right-crm h4 {
+    text-transform: uppercase;
+    padding-top: 20px;
+    position: relative;
+}
+
+.right-crm h4:after {
+    display: inline-block;
+    content: '';
+    height: 1px;
+    background: black;
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.right-crm p {
+    padding-bottom: 10px;
+}
+
+.right-crm ul {
+    padding-top: 30px;
+}
+
+.right-crm ul li i {
+    color: #fe775a;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#first-check-icon {
+    padding-left: 0;
+}
+
+/* COLUMNS SECTION ----------------------------------------*/
+
+.columns {
+    margin-top: 50px;
+}
+
+.col {
+    text-align: center;
+    width: 360px;
+    height: 700px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+}
+
+.col2 {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/* COLUMNS CONTENT */
+
+.col img {
+    width: 128px;
+    height: 128px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.col p {
+    line-height: 25px;
+    font-size: 16px;
+    margin: 25px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid black;
+}
+
+.col h4 {
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.col ul {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.col ul li i {
+    padding-right: 10px;
+    color: #fe775a;
+}
+
+.col div {
+    margin-top: 70px;
+}
+
+/* GRADIENT SECTION ---------------------------------------*/
