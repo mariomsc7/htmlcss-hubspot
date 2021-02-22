@@ -510,7 +510,6 @@ section.last-section {
 .bottom-left {
     margin-top: 50px;
     width: 40%;
-    height: 1000px;
 }
 
 .bottom-left h2 {
@@ -535,4 +534,89 @@ footer {
     height: 700px;
 }
 
+.col5 {
+    width: 25%;
+    line-height: 40px;
+    margin-top: 30px;
+    font-size: 14px;
+}
 
+.col5 h3 {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.col5 ul li {
+    color: #cbd6e1;
+    cursor: pointer;
+}
+
+.col5 ul li:hover {
+    color:#fe775a;
+    transition: 0.5s;
+}
+
+/* FOOTER BUTTON + SOCIAL MEDIA ICONS */
+
+.col5 .btn-footer {
+    color: #32495b;
+    background-color: #cbd6e1;
+    border-color: transparent;
+    font-weight: 900;
+    font-size: 12px;
+    display: inline;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media li{
+    padding-right: 25px;
+}
+
+/* BOTTOM FOOTER */
+
+.languages {
+    text-align: center;
+    color: #cbd6e1;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.languages li {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.languages ul li:hover {
+    color:#fe775a;
+    transition: 0.5s;
+}
+
+.footer-logo {
+    width: 80%;
+    padding-top: 20px;
+}
+
+.footer-logo p {
+    color: white;
+}
+
+.policy {
+    padding-top: 45px;
+    width: 20%;
+    text-align: right;
+    color: #cbd6e1;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.policy span:last-of-type {
+    padding-left: 20px;
+}
+
+.policy span:hover {
+    color:#fe775a;
+    transition: 0.5s;
+}
